@@ -1,6 +1,7 @@
 def su (a,b):
     c=a+b
-    z=1 #local variable
+    global z #modifying the global variable
+    z=1 #local variable then after this will refer to global variable
     return c
 
 def greet():
