@@ -4,7 +4,8 @@
 
 class employee: #def __init__(self): #constructor
     company = "Google"
-    def getsalary(self): #method
+    def getsalary(self):
+        print(self) #method
         return 100000
 
 
@@ -13,3 +14,5 @@ print(e.getsalary()) #calling method using object
 
 e2=employee()
 print(e2.getsalary())
+print(e.company)
+print(e2.company)
